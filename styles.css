@@ -1,22 +1,97 @@
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
 }
 
-#navMenu a {
-  margin: 0 10px;
+nav#navMenu {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav#navMenu a {
+  margin: 0 15px;
   text-decoration: none;
-  color: blue;
+  color: #007bff;
+  font-weight: bold;
+}
+
+nav#navMenu a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin-bottom: 50px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 0;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  margin: 8px 5px 8px 0;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul#skillsList {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul#skillsList li {
+  padding: 10px;
+  background: #e8f0fe;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .projectCard {
   border: 1px solid #ccc;
+  background: #ffffff;
+  border-radius: 10px;
   padding: 15px;
-  margin: 10px 0;
-  width: 300px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
 }
 
 .projectCard img {
   width: 100%;
   height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.projectCard h3 {
+  margin: 10px 0 5px 0;
+}
+
+.projectCard p {
+  margin: 0 0 5px 0;
 }
